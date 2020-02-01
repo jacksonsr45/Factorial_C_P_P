@@ -10,26 +10,29 @@ using namespace std;
 int main(int nNumberOfArgs,char* pszArgs[])
 {
 
-    cout << "This program calculates factorials"
-         << "of user input"
-         << "Enter a negative number to exit" << endl;
+    cout << "##########################################"<< endl;
+    cout << "#   This program calculates factorials   #"<< endl;
+    cout << "#             of user input              #"<< endl;
+    cout << "#    Enter a negative  number to exit    #"<< endl;
+    cout << "#       by jacksonsr45@gmail.com         #"<< endl;
+    cout << "##########################################"<< endl;
 
     for(;;)
     {
-        int nValue;
+        int n;
 
-        cout << "ENTER WITH A NUMBER:";
-        cin >> nValue;
+        cout << "Enter with a number: ";
+        cin >> n;
 
-        if (nValue < 0)
+        if (n < 0)
         {
             break;
         }
         
 
-        int nFactorial = factorial(nValue);
+        int nFactorial = calcfactorial(n);
 
-        cout << nValue << "factorial is "
+        cout << "Your number is " << n << " and the factorial is "
             << nFactorial << endl;
     }
     system("PAUSE");

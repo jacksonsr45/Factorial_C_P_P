@@ -2,5 +2,5 @@
 #define FACTORIAL_H_INCLUDED
 #include "CalcFactorial.cpp"
 
-int factorial(int nTarget);
+int calcfactorial(int inValue);
 #endif // FACTORIAL_H_INCLUDED
