@@ -1,6 +1,6 @@
-#ifndef FACTORIAL_H_INCLUDED
-#define FACTORIAL_H_INCLUDED
+#ifndef HEADER_H_INCLUDED
+#define HEADER_H_INCLUDED
 #include "CalcFactorial.cpp"
 
 int calcfactorial(int inValue);
-#endif // FACTORIAL_H_INCLUDED
+#endif // HEADER_H_INCLUDED
